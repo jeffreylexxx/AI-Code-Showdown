@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RAW_TOOLS_DATA } from './data/tools';
+import RAW_TOOLS_DATA from './data/tools.json';
 import { calculateScores } from './utils/scoring';
 
 export default function App() {
