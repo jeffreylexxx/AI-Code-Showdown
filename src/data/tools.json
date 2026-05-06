@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Cursor",
+    "type": "桌面 IDE",
+    "status": "火爆",
+    "accentColor": "from-cyan-500 to-blue-600",
+    "borderColor": "hover:border-cyan-500/50",
+    "glowColor": "shadow-cyan-500/10",
+    "description": "目前最成熟的 AI-Native 编辑器，深度融合多行补全与全库索引。",
+    "githubStars": 52400,
+    "redditSentiment": 92,
+    "features": {
+      "byok": true,
+      "multiAgent": false,
+      "codebaseIndex": true,
+      "openSource": false
+    }
+  },
+  {
+    "name": "Claude Code",
+    "type": "终端 CLI",
+    "status": "极速",
+    "accentColor": "from-purple-500 to-indigo-600",
+    "borderColor": "hover:border-purple-500/50",
+    "glowColor": "shadow-purple-500/10",
+    "description": "Anthropic 官方命令行 Agent，拥有超强自主执行权限和 Debug 能力。",
+    "githubStars": 24100,
+    "redditSentiment": 89,
+    "features": {
+      "byok": false,
+      "multiAgent": true,
+      "codebaseIndex": true,
+      "openSource": true
+    }
+  },
+  {
+    "name": "OpenAI Codex",
+    "type": "桌面 IDE",
+    "status": "黑马",
+    "accentColor": "from-amber-400 to-yellow-600",
+    "borderColor": "hover:border-amber-500/50",
+    "glowColor": "shadow-amber-500/10",
+    "description": "2026年全新重塑的 OpenAI 官方桌面级 AI 编程客户端，主打极简设计与超快响应。",
+    "githubStars": 38200,
+    "redditSentiment": 93,
+    "features": {
+      "byok": true,
+      "multiAgent": true,
+      "codebaseIndex": true,
+      "openSource": false
+    }
+  },
+  {
+    "name": "Windsurf",
+    "type": "桌面 IDE",
+    "status": "新星",
+    "accentColor": "from-emerald-500 to-teal-600",
+    "borderColor": "hover:border-emerald-500/50",
+    "glowColor": "shadow-emerald-500/10",
+    "description": "主打“人机协同（Flows）”的工作流，Agent 会在右侧看板实时演练。",
+    "githubStars": 18700,
+    "redditSentiment": 86,
+    "features": {
+      "byok": true,
+      "multiAgent": true,
+      "codebaseIndex": true,
+      "openSource": false
+    }
+  },
+  {
+    "name": "Gemini CLI",
+    "type": "终端 CLI",
+    "status": "推荐",
+    "accentColor": "from-pink-500 to-rose-600",
+    "borderColor": "hover:border-pink-500/50",
+    "glowColor" : "shadow-pink-500/10",
+    "description": "谷歌官方命令行工具，独占 100万 超大上下文，读取整个仓库毫无压力。",
+    "githubStars": 12500,
+    "redditSentiment": 84,
+    "features": {
+      "byok": false,
+      "multiAgent": true,
+      "codebaseIndex": true,
+      "openSource": true
+    }
+  },
+  {
+    "name": "Google Antigravity",
+    "type": "桌面 IDE",
+    "status": "预览版",
+    "accentColor": "from-amber-500 to-orange-600",
+    "borderColor": "hover:border-amber-500/50",
+    "glowColor": "shadow-amber-500/10",
+    "description": "谷歌官方 Agent 优先 IDE，内置多智能体控制中心和自动化网页测试。",
+    "githubStars": 8200,
+    "redditSentiment": 81,
+    "features": {
+      "byok": false,
+      "multiAgent": true,
+      "codebaseIndex": true,
+      "openSource": false
+    }
+  },
+  {
+    "name": "GitHub Copilot",
+    "type": "IDE 插件",
+    "status": "老牌",
+    "accentColor": "from-slate-500 to-slate-700",
+    "borderColor": "hover:border-slate-500/50",
+    "glowColor": "shadow-slate-500/10",
+    "description": "AI 编程开山鼻祖，企业级安全合规首选，但 Agent 进化速度稍慢。",
+    "githubStars": 0,
+    "redditSentiment": 68,
+    "features": {
+      "byok": false,
+      "multiAgent": false,
+      "codebaseIndex": false,
+      "openSource": false
+    }
+  }
+]
