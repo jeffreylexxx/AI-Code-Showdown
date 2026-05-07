@@ -1,7 +1,7 @@
 [
   {
     "name": "OpenAI Codex",
-    "type": "全能 Agent",
+    "type": "桌面 IDE",
     "status": "王者归来",
     "accentColor": "from-amber-400 to-yellow-600",
     "borderColor": "hover:border-amber-500/50",
@@ -24,7 +24,7 @@
     "borderColor": "hover:border-blue-500/50",
     "glowColor": "shadow-blue-500/10",
     "description": "Meta旗下的全自动智能体，不仅能写代码，还能独立完成调研、测试及一键部署全栈应用。",
-    "githubStars": 0,
+    "githubStars": 61200,
     "redditSentiment": 94,
     "features": {
       "byok": false,
@@ -51,6 +51,23 @@
     }
   },
   {
+    "name": "Claude Code",
+    "type": "终端 CLI",
+    "status": "极速",
+    "accentColor": "from-purple-500 to-indigo-600",
+    "borderColor": "hover:border-purple-500/50",
+    "glowColor": "shadow-purple-500/10",
+    "description": "Anthropic 官方命令行 Agent，拥有超强自主执行权限和极其强悍的 Debug 纠错能力。",
+    "githubStars": 48200,
+    "redditSentiment": 92,
+    "features": {
+      "byok": false,
+      "multiAgent": true,
+      "codebaseIndex": true,
+      "openSource": true
+    }
+  },
+  {
     "name": "OpenCode",
     "type": "开源 Agent",
     "status": "自由",
@@ -71,9 +88,9 @@
     "name": "Cline",
     "type": "VS Code 插件",
     "status": "全能",
-    "accentColor": "from-purple-500 to-indigo-600",
-    "borderColor": "hover:border-purple-500/50",
-    "glowColor": "shadow-purple-500/10",
+    "accentColor": "from-indigo-500 to-blue-600",
+    "borderColor": "hover:border-indigo-500/50",
+    "glowColor": "shadow-indigo-500/10",
     "description": "高性能VS Code智能辅助，具备极强自主执行权，能直接操控本地终端与浏览器进行联合调试。",
     "githubStars": 45600,
     "redditSentiment": 90,
@@ -102,15 +119,100 @@
     }
   },
   {
-    "name": "Codeium",
-    "type": "极速 IDE",
+    "name": "Windsurf",
+    "type": "桌面 IDE",
     "status": "流畅",
     "accentColor": "from-teal-400 to-emerald-500",
     "borderColor": "hover:border-teal-500/50",
     "glowColor": "shadow-teal-500/10",
-    "description": "凭借次世代Windsurf引擎，提供极致流畅的编码补全体验，是Copilot最强力的竞争者。",
-    "githubStars": 0,
+    "description": "主打“人机协同（Flows）”的工作流，Agent 会在右侧画布上以可视化的形式演练代码。",
+    "githubStars": 28400,
+    "redditSentiment": 87,
+    "features": {
+      "byok": true,
+      "multiAgent": true,
+      "codebaseIndex": true,
+      "openSource": false
+    }
+  },
+  {
+    "name": "Gemini CLI",
+    "type": "终端 CLI",
+    "status": "推荐",
+    "accentColor": "from-pink-500 to-rose-600",
+    "borderColor": "hover:border-pink-500/50",
+    "glowColor" : "shadow-pink-500/10",
+    "description": "谷歌官方命令行工具，独占 100万 超大上下文，一次性读取整个代码仓库毫无压力。",
+    "githubStars": 22500,
+    "redditSentiment": 86,
+    "features": {
+      "byok": false,
+      "multiAgent": true,
+      "codebaseIndex": true,
+      "openSource": true
+    }
+  },
+  {
+    "name": "Google Antigravity",
+    "type": "桌面 IDE",
+    "status": "预览版",
+    "accentColor": "from-amber-500 to-orange-600",
+    "borderColor": "hover:border-amber-500/50",
+    "glowColor": "shadow-amber-500/10",
+    "description": "谷歌官方 Agent 优先 IDE，内置多智能体并行控制中心和全自动化的浏览器前端测试。",
+    "githubStars": 18200,
     "redditSentiment": 85,
+    "features": {
+      "byok": false,
+      "multiAgent": true,
+      "codebaseIndex": true,
+      "openSource": false
+    }
+  },
+  {
+    "name": "GitHub Copilot",
+    "type": "IDE 插件",
+    "status": "老牌",
+    "accentColor": "from-slate-500 to-slate-700",
+    "borderColor": "hover:border-slate-500/50",
+    "glowColor": "shadow-slate-500/10",
+    "description": "AI 编程开山鼻祖，企业级安全合规首选。虽然是老牌工具，但代码补全速度依旧极快。",
+    "githubStars": 0,
+    "redditSentiment": 74,
+    "features": {
+      "byok": false,
+      "multiAgent": false,
+      "codebaseIndex": false,
+      "openSource": false
+    }
+  },
+  {
+    "name": "Gemini Code Assist",
+    "type": "IDE 插件",
+    "status": "谷歌全家桶",
+    "accentColor": "from-blue-400 to-cyan-500",
+    "borderColor": "hover:border-blue-400/50",
+    "glowColor": "shadow-blue-400/10",
+    "description": "谷歌官方IDE插件，深度融合 Cloud 生态，非常擅长处理跨文件的复杂代码生成与迁移。",
+    "githubStars": 0,
+    "redditSentiment": 76,
+    "features": {
+      "byok": false,
+      "multiAgent": false,
+      "codebaseIndex": true,
+      "openSource": false
+    }
+  },
+  {
+    "name": "Codeium",
+    "type": "全能 IDE",
+    "status": "流畅",
+    "accentColor": "from-cyan-400 to-emerald-500",
+    "borderColor": "hover:border-cyan-500/50",
+    "glowColor": "shadow-cyan-500/10",
+    "description": "面向个人的免费极速代码补全工具，拥有海量的活跃用户与极佳的本地多语种模型支持。",
+    "githubStars": 0,
+    "redditSentiment": 82,
     "features": {
       "byok": true,
       "multiAgent": true,
@@ -122,12 +224,12 @@
     "name": "Tabnine",
     "type": "隐私优先",
     "status": "安全",
-    "accentColor": "from-slate-500 to-slate-700",
-    "borderColor": "hover:border-slate-500/50",
-    "glowColor": "shadow-slate-500/10",
+    "accentColor": "from-slate-600 to-slate-800",
+    "borderColor": "hover:border-slate-600/50",
+    "glowColor": "shadow-slate-600/10",
     "description": "企业级隐私保护标杆，支持完全本地化部署，为金融与医疗等高安全行业提供零风险AI方案。",
     "githubStars": 0,
-    "redditSentiment": 82,
+    "redditSentiment": 78,
     "features": {
       "byok": false,
       "multiAgent": false,
