@@ -7,7 +7,7 @@
     "borderColor": "hover:border-cyan-500/50",
     "glowColor": "shadow-cyan-500/10",
     "description": "目前最成熟的 AI-Native 编辑器，深度融合多行补全与全库索引。",
-    "githubStars": 52400,
+    "githubStars": 32830,
     "redditSentiment": 92,
     "features": {
       "byok": true,
@@ -41,7 +41,7 @@
     "borderColor": "hover:border-amber-500/50",
     "glowColor": "shadow-amber-500/10",
     "description": "2026年全新重塑的 OpenAI 官方桌面级 AI 编程客户端，主打极简设计与超快响应。",
-    "githubStars": 38200,
+    "githubStars": 73292,
     "redditSentiment": 93,
     "features": {
       "byok": true,
@@ -73,7 +73,7 @@
     "status": "推荐",
     "accentColor": "from-pink-500 to-rose-600",
     "borderColor": "hover:border-pink-500/50",
-    "glowColor" : "shadow-pink-500/10",
+    "glowColor": "shadow-pink-500/10",
     "description": "谷歌官方命令行工具，独占 100万 超大上下文，读取整个仓库毫无压力。",
     "githubStars": 12500,
     "redditSentiment": 84,
