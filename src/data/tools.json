@@ -2,239 +2,155 @@
   {
     "name": "OpenAI Codex",
     "type": "桌面 IDE",
-    "status": "王者归来",
+    "status": "王者",
     "accentColor": "from-amber-400 to-yellow-600",
-    "borderColor": "hover:border-amber-500/50",
-    "glowColor": "shadow-amber-500/10",
-    "description": "2026年重塑的官方客户端，搭载GPT-5.5，是目前全球智商最高、逻辑最缜密的编程智能体。",
-    "githubStars": 68200,
+    "keywords": ["GPT-5.5驱动", "多步逻辑推理", "官方IDE", "O1-Inside", "企业级架构", "全栈生成"],
+    "description": "2026年重塑的官方客户端，通过系统级逻辑推理实现从需求到架构的全闭环生成。",
+    "githubStars": 72400,
     "redditSentiment": 97,
-    "features": {
-      "byok": true,
-      "multiAgent": true,
-      "codebaseIndex": true,
-      "openSource": false
-    }
+    "scores": [98, 92, 70, 95, 88]
   },
   {
     "name": "Manus",
     "type": "自动智能体",
     "status": "爆火",
     "accentColor": "from-blue-500 to-indigo-600",
-    "borderColor": "hover:border-blue-500/50",
-    "glowColor": "shadow-blue-500/10",
-    "description": "Meta旗下的全自动智能体，不仅能写代码，还能独立完成调研、测试及一键部署全栈应用。",
-    "githubStars": 61200,
+    "keywords": ["通用Agent", "异步执行", "自主调研", "Meta生态", "端到端交付", "无需配置"],
+    "description": "Meta 旗下的全自动智能体，不仅能写代码，还能独立完成调研、测试及一键部署全栈应用。",
+    "githubStars": 65200,
     "redditSentiment": 94,
-    "features": {
-      "byok": false,
-      "multiAgent": true,
-      "codebaseIndex": true,
-      "openSource": false
-    }
+    "scores": [94, 96, 75, 90, 85]
   },
   {
     "name": "Cursor",
     "type": "桌面 IDE",
     "status": "稳定",
     "accentColor": "from-cyan-500 to-blue-600",
-    "borderColor": "hover:border-cyan-500/50",
-    "glowColor": "shadow-cyan-500/10",
+    "keywords": ["Composer模式", "代码库索引", "VSCode-Fork", "原生RAG", "多行补全", "影子工作区"],
     "description": "AI-Native编辑器的行业标准，深度集成Composer模式，是大规模团队协作的首选方案。",
     "githubStars": 58400,
     "redditSentiment": 91,
-    "features": {
-      "byok": true,
-      "multiAgent": false,
-      "codebaseIndex": true,
-      "openSource": false
-    }
+    "scores": [90, 88, 80, 95, 82]
   },
   {
     "name": "Claude Code",
     "type": "终端 CLI",
     "status": "极速",
     "accentColor": "from-purple-500 to-indigo-600",
-    "borderColor": "hover:border-purple-500/50",
-    "glowColor": "shadow-purple-500/10",
+    "keywords": ["Sonnet 4", "极简CLI", "Agentic", "工具调用", "低延迟", "长文本推理"],
     "description": "Anthropic 官方命令行 Agent，拥有超强自主执行权限和极其强悍的 Debug 纠错能力。",
     "githubStars": 48200,
     "redditSentiment": 92,
-    "features": {
-      "byok": false,
-      "multiAgent": true,
-      "codebaseIndex": true,
-      "openSource": true
-    }
+    "scores": [96, 94, 78, 85, 80]
   },
   {
     "name": "OpenCode",
     "type": "开源 Agent",
     "status": "自由",
     "accentColor": "from-emerald-500 to-teal-600",
-    "borderColor": "hover:border-emerald-500/50",
-    "glowColor": "shadow-emerald-500/10",
+    "keywords": ["开源领袖", "本地Ollama", "隐私控制", "社区插件", "完全免费", "BYOK支持"],
     "description": "拥有13万星标的开源领袖，支持BYOK与本地模型，是追求自由度与低成本开发者的最爱。",
     "githubStars": 131000,
     "redditSentiment": 95,
-    "features": {
-      "byok": true,
-      "multiAgent": true,
-      "codebaseIndex": true,
-      "openSource": true
-    }
+    "scores": [88, 82, 98, 80, 95]
   },
   {
     "name": "Cline",
-    "type": "VS Code 插件",
-    "status": "全能",
+    "type": "插件",
+    "status": "强悍",
     "accentColor": "from-indigo-500 to-blue-600",
-    "borderColor": "hover:border-indigo-500/50",
-    "glowColor": "shadow-indigo-500/10",
-    "description": "高性能VS Code智能辅助，具备极强自主执行权，能直接操控本地终端与浏览器进行联合调试。",
+    "keywords": ["MCP协议", "浏览器控制", "多模型切换", "任务历史", "高权限执行", "开源社区"],
+    "description": "高性能智能辅助，支持 MCP 协议，能直接操控终端与浏览器进行联合调试。",
     "githubStars": 45600,
     "redditSentiment": 90,
-    "features": {
-      "byok": true,
-      "multiAgent": true,
-      "codebaseIndex": true,
-      "openSource": true
-    }
+    "scores": [92, 90, 85, 88, 86]
   },
   {
     "name": "Aider",
-    "type": "命令行助手",
+    "type": "终端",
     "status": "极客",
     "accentColor": "from-orange-500 to-red-600",
-    "borderColor": "hover:border-orange-500/50",
-    "glowColor": "shadow-orange-500/10",
-    "description": "极客必备的Git配对伴侣，确保每一次AI代码修改都自动提交且逻辑有迹可循。",
+    "keywords": ["Git-Pair", "秒级响应", "命令行模式", "Diff视图", "Repo-Chat", "模型不可知"],
+    "description": "极客必备的Git配对伴侣，确保每一次代码修改都自动提交且逻辑有迹可循。",
     "githubStars": 42800,
     "redditSentiment": 88,
-    "features": {
-      "byok": true,
-      "multiAgent": false,
-      "codebaseIndex": true,
-      "openSource": true
-    }
+    "scores": [89, 98, 88, 75, 92]
   },
   {
     "name": "Windsurf",
-    "type": "桌面 IDE",
-    "status": "流畅",
+    "type": "IDE",
+    "status": "黑马",
     "accentColor": "from-teal-400 to-emerald-500",
-    "borderColor": "hover:border-teal-500/50",
-    "glowColor": "shadow-teal-500/10",
-    "description": "主打“人机协同（Flows）”的工作流，Agent 会在右侧画布上以可视化的形式演练代码。",
+    "keywords": ["画布交互", "Flow引擎", "直观预测", "实时渲染", "多Agent协同", "极速索引"],
+    "description": "主打“人机协同”工作流，Agent 在右侧画布上以可视化形式演练代码。",
     "githubStars": 28400,
     "redditSentiment": 87,
-    "features": {
-      "byok": true,
-      "multiAgent": true,
-      "codebaseIndex": true,
-      "openSource": false
-    }
+    "scores": [87, 95, 82, 85, 80]
   },
   {
     "name": "Gemini CLI",
-    "type": "终端 CLI",
-    "status": "推荐",
+    "type": "终端",
+    "status": "海量",
     "accentColor": "from-pink-500 to-rose-600",
-    "borderColor": "hover:border-pink-500/50",
-    "glowColor" : "shadow-pink-500/10",
-    "description": "谷歌官方命令行工具，独占 100万 超大上下文，一次性读取整个代码仓库毫无压力。",
+    "keywords": ["2M上下文", "Google云集成", "原生Flash", "多模态", "仓库同步", "免费额度"],
+    "description": "谷歌官方命令行工具，独占超大上下文，一次性读取整个仓库毫无压力。",
     "githubStars": 22500,
     "redditSentiment": 86,
-    "features": {
-      "byok": false,
-      "multiAgent": true,
-      "codebaseIndex": true,
-      "openSource": true
-    }
+    "scores": [91, 88, 92, 98, 85]
   },
   {
     "name": "Google Antigravity",
-    "type": "桌面 IDE",
-    "status": "预览版",
+    "type": "桌面",
+    "status": "黑科技",
     "accentColor": "from-amber-500 to-orange-600",
-    "borderColor": "hover:border-amber-500/50",
-    "glowColor": "shadow-amber-500/10",
-    "description": "谷歌官方 Agent 优先 IDE，内置多智能体并行控制中心和全自动化的浏览器前端测试。",
+    "keywords": ["制品验证", "自动UI测试", "多智能体", "Project-Idx", "预览版", "端到端监控"],
+    "description": "官方 Agent 优先 IDE，内置多智能体控制中心和全自动化的前端测试。",
     "githubStars": 18200,
     "redditSentiment": 85,
-    "features": {
-      "byok": false,
-      "multiAgent": true,
-      "codebaseIndex": true,
-      "openSource": false
-    }
+    "scores": [88, 84, 85, 88, 92]
   },
   {
     "name": "GitHub Copilot",
-    "type": "IDE 插件",
-    "status": "老牌",
+    "type": "插件",
+    "status": "基石",
     "accentColor": "from-slate-500 to-slate-700",
-    "borderColor": "hover:border-slate-500/50",
-    "glowColor": "shadow-slate-500/10",
-    "description": "AI 编程开山鼻祖，企业级安全合规首选。虽然是老牌工具，但代码补全速度依旧极快。",
+    "keywords": ["Azure后端", "VS插件", "安全性高", "企业合规", "补全极速", "大厂首选"],
+    "description": "AI 编程开山鼻祖，企业级安全合规首选，代码补全速度依旧极快。",
     "githubStars": 0,
     "redditSentiment": 74,
-    "features": {
-      "byok": false,
-      "multiAgent": false,
-      "codebaseIndex": false,
-      "openSource": false
-    }
+    "scores": [84, 96, 85, 70, 95]
   },
   {
     "name": "Gemini Code Assist",
-    "type": "IDE 插件",
-    "status": "谷歌全家桶",
+    "type": "插件",
+    "status": "专业",
     "accentColor": "from-blue-400 to-cyan-500",
-    "borderColor": "hover:border-blue-400/50",
-    "glowColor": "shadow-blue-400/10",
-    "description": "谷歌官方IDE插件，深度融合 Cloud 生态，非常擅长处理跨文件的复杂代码生成与迁移。",
+    "keywords": ["GCP原生", "全库索引", "代码迁移", "多仓库支持", "自定义模型", "StackOverflow"],
+    "description": "深度融合 Cloud 生态，擅长处理跨文件的复杂代码生成与迁移。",
     "githubStars": 0,
     "redditSentiment": 76,
-    "features": {
-      "byok": false,
-      "multiAgent": false,
-      "codebaseIndex": true,
-      "openSource": false
-    }
+    "scores": [85, 88, 80, 92, 90]
   },
   {
     "name": "Codeium",
-    "type": "全能 IDE",
-    "status": "流畅",
+    "type": "IDE",
+    "status": "免费",
     "accentColor": "from-cyan-400 to-emerald-500",
-    "borderColor": "hover:border-cyan-500/50",
-    "glowColor": "shadow-cyan-500/10",
-    "description": "面向个人的免费极速代码补全工具，拥有海量的活跃用户与极佳的本地多语种模型支持。",
+    "keywords": ["Windsurf核心", "个人永远免费", "全平台支持", "安全云端", "自研模型", "流畅补全"],
+    "description": "面向个人的免费极速代码补全工具，拥有海量的活跃用户与多语种支持。",
     "githubStars": 0,
     "redditSentiment": 82,
-    "features": {
-      "byok": true,
-      "multiAgent": true,
-      "codebaseIndex": true,
-      "openSource": false
-    }
+    "scores": [86, 95, 95, 82, 80]
   },
   {
     "name": "Tabnine",
-    "type": "隐私优先",
+    "type": "隐私",
     "status": "安全",
     "accentColor": "from-slate-600 to-slate-800",
-    "borderColor": "hover:border-slate-600/50",
-    "glowColor": "shadow-slate-600/10",
-    "description": "企业级隐私保护标杆，支持完全本地化部署，为金融与医疗等高安全行业提供零风险AI方案。",
+    "keywords": ["零数据保留", "隔离部署", "无训练风险", "企业合规", "本地模型", "隐私标杆"],
+    "description": "企业级隐私保护标杆，支持完全本地化部署，为高安全行业提供方案。",
     "githubStars": 0,
     "redditSentiment": 78,
-    "features": {
-      "byok": false,
-      "multiAgent": false,
-      "codebaseIndex": true,
-      "openSource": false
-    }
+    "scores": [82, 85, 75, 78, 98]
   }
 ]
