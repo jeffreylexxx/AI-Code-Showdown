@@ -45,7 +45,7 @@ export default function App() {
       </header>
 
       <main className="max-w-7xl mx-auto px-6 relative z-10">
-        {/* 关键修复：将 auto-rows-[220px] 提升至 240px，确保描述文字不被遮挡 */}
+        {/* 将行高提升至 240px，完美解决描述文字被遮挡的问题 */}
         <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-5 auto-rows-[240px]">
           
           {/* 冠亚军卡片保持 row-span-2 (480px) */}
@@ -88,9 +88,12 @@ export default function App() {
             <div key={tool.name} className={`md:col-span-3 lg:col-span-4 row-span-1 rounded-3xl bg-slate-900/30 border border-slate-800/60 p-5 flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] ${tool.borderColor} hover:shadow-lg ${tool.glowColor} relative overflow-hidden group`}>
               <div className="flex justify-between items-start">
                 <div><h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">{tool.name}</h3><span className="text-[10px] text-slate-500 uppercase tracking-widest">{tool.type}</span></div>
-                <span className="text-xl font-black text-slate-600 opacity-50">#{idx + 3}</span>
+                {/* 🚀 极其关键的修改：将排名 # 更改为高亮霓虹蓝发光字体，并在纯黑背景下极其醒目 */}
+                <span className="text-2xl font-black text-cyan-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.6)] font-mono">
+                  #{idx + 3}
+                </span>
               </div>
-              {/* 这里是修复关键：使用 mt-2 mb-1 缩减垂直占用，line-clamp-2 限制显示 */}
+              {/* 这里是修复关键：使用 mt-2 mb-1 缩减垂直占用，line-clamp-2 限制显示在2行内 */}
               <p className="text-slate-400 text-[11px] line-clamp-2 mt-2 mb-1 leading-relaxed">
                 {tool.description}
               </p>
