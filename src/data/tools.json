@@ -7,7 +7,7 @@
     "borderColor": "hover:border-amber-500/50",
     "glowColor": "shadow-amber-500/10",
     "description": "2026年重塑的官方客户端，搭载GPT-5.5，是目前全球智商最高、逻辑最缜密的编程智能体。",
-    "githubStars": 68200,
+    "githubStars": 73316,
     "redditSentiment": 97,
     "features": {
       "byok": true,
@@ -41,7 +41,7 @@
     "borderColor": "hover:border-cyan-500/50",
     "glowColor": "shadow-cyan-500/10",
     "description": "AI-Native编辑器的行业标准，深度集成Composer模式，是大规模团队协作的首选方案。",
-    "githubStars": 58400,
+    "githubStars": 32838,
     "redditSentiment": 91,
     "features": {
       "byok": true,
@@ -141,7 +141,7 @@
     "status": "推荐",
     "accentColor": "from-pink-500 to-rose-600",
     "borderColor": "hover:border-pink-500/50",
-    "glowColor" : "shadow-pink-500/10",
+    "glowColor": "shadow-pink-500/10",
     "description": "谷歌官方命令行工具，独占 100万 超大上下文，一次性读取整个代码仓库毫无压力。",
     "githubStars": 22500,
     "redditSentiment": 86,
