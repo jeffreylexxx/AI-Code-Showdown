@@ -41,7 +41,7 @@
     "borderColor": "hover:border-cyan-500/50",
     "glowColor": "shadow-cyan-500/10",
     "description": "AI-Native编辑器的行业标准，深度集成Composer模式，是大规模团队协作的首选方案。",
-    "githubStars": 32989,
+    "githubStars": 32994,
     "redditSentiment": 91,
     "features": {
       "byok": true,
