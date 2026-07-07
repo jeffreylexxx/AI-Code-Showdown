@@ -7,7 +7,7 @@
     "borderColor": "hover:border-amber-500/50",
     "glowColor": "shadow-amber-500/10",
     "description": "2026年重塑的官方客户端，搭载GPT-5.5，是目前全球智商最高、逻辑最缜密的编程智能体。",
-    "githubStars": 74557,
+    "githubStars": 74572,
     "redditSentiment": 97,
     "features": {
       "byok": true,
@@ -41,7 +41,7 @@
     "borderColor": "hover:border-cyan-500/50",
     "glowColor": "shadow-cyan-500/10",
     "description": "AI-Native编辑器的行业标准，深度集成Composer模式，是大规模团队协作的首选方案。",
-    "githubStars": 33007,
+    "githubStars": 33009,
     "redditSentiment": 91,
     "features": {
       "byok": true,
