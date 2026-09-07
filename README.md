@@ -2,6 +2,9 @@
 
 > **2026 年最硬核的 AI 编程工具动态评价指标系统。** 拒绝主观评测，完全基于 GitHub 活跃数据、Reddit 开发者口碑及五维功能矩阵，实时捕捉 AI 编程界的权力更迭。
 
+演示地址：
+https://jeffreylexxx.github.io/AI-Code-Showdown/
+
 ---
 
 ## 🚀 在线预览
